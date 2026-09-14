@@ -13,8 +13,9 @@ const progDataFetch = async () => {
     };
 
 function App() {
-  const [count, setCount] = useState(0)
+  
   const progDataPromise = progDataFetch();
+  
 
   return (
     <>
@@ -26,12 +27,7 @@ function App() {
       <ProgData progDataPromise={progDataPromise} />
       </Suspense>
       
-      {/* <Catalog /> */}
-
-      
-      <button onClick={() => setCount((count) => count + 1)}>
-        Count is {count}
-      </button>
+      {/* <Catalog /> */}         
      
      <Footer />
     </>
