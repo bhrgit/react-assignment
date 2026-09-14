@@ -69,16 +69,12 @@ const ProgData = ({ progDataPromise }) => {
                             
                                 </div>
                             </div>
-                        </div>                           
+                        </div>                          
                         
                     </div>
-                </div>
-
-                    
-
-                   
-                
-                
+                </div>                  
+                            
+              
             </div>
             )}
             
@@ -105,8 +101,7 @@ const ProgData = ({ progDataPromise }) => {
                 selectedId={selectedId}
                 tech={tech}
                 handleSelectStack= {handleSelectStack}
-                setSelectedId={setSelectedId}
-                
+                setSelectedId={setSelectedId}               
 
             </SelectStack>                        */}
 
