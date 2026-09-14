@@ -16,7 +16,6 @@ const ProgData = ({ progDataPromise }) => {
             }
         };
         
-
         return (
             <div >
             {/* <Catalog tech={tech} /> */}
